@@ -12,9 +12,9 @@ public class Main {
         acc2.withdraw(300);
 
         System.out.println("\n═══ Interest Calculation ═══");
-        System.out.println("John Den's interest: $" + acc1.calculateInterest());
-        System.out.println("Jose Manuel's interest: $" + acc2.calculateInterest());
-        System.out.println("Ashton Lactuan's interest: $" + acc3.calculateInterest());
+        System.out.println("John Doe's interest: $" + acc1.calculateInterest());
+        System.out.println("Jane Smith's interest: $" + acc2.calculateInterest());
+        System.out.println("Bob Johnson's interest: $" + acc3.calculateInterest());
 
         System.out.println("\nTotal Accounts Created: " + BankAccount.totalAccounts);
     }
